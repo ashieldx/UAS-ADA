@@ -26,11 +26,10 @@ bool searchString(string a, string b){
 }
 
 int main(){
-	while(1){
-		string a, b;
-		cin >> a >> b;
-		cout << (searchString(a, b) ? "YA" : "TIDAK") << endl;
-	}
+	
+	string a, b;
+	cin >> a >> b;
+	cout << (searchString(a, b) ? "YA" : "TIDAK") << endl;
 	
 	return 0;
 }
